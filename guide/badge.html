@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="./js/clipBoard.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Badge</title>
-  <link rel="stylesheet" href="../css/style.css" />
-  <script type="module" src="./js/clipBoard.js"></script>
-</head>
+  <body>
+    <h2>공통</h2>
+    <div class="copy">
+      <div class="badge common">Common</div>
+    </div>
+    <h2>색상별</h2>
+    <div class="copy-group">
+      <div class="copy">
+        <div class="badge green_success">Success</div>
+        <div class="badge alert">Alert</div>
+        <div class="badge warning">Warning</div>
+        <div class="badge info">Info</div>
+      </div>
+    </div>
 
-<body>
-  <h2>공통</h2>
-  <div class="copy">
-    <div class="badge blue">badge</div>
-  </div>
-  <h2>색상별</h2>
-  <div class="copy">
-    <div class="badge blue">blue</div>
-    <div class="badge orange">orange</div>
-  </div>
-</body>
-
+    <h2>다크</h2>
+    <div class="copy-group">
+      <div class="copy dark">
+        <div class="badge dark green_success">Success</div>
+          <div class="badge dark alert">Alert</div>
+          <div class="badge dark warning">Warning</div>
+          <div class="badge dark info">Info</div>
+        </div>
+    </div>
+   </div>
+  </body>
 </html>

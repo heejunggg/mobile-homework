@@ -1,8 +1,9 @@
-.badge {
-  --paddingX: 1rem;
-  --paddingY: 1rem;
-  --fontSize: 1.2rem;
-  --radius: 1rem;
+.badge,
+.badge.dark {
+  --paddingX: 1.6rem;
+  --paddingY: 0.8rem;
+  --fontSize: 1.6rem;
+  --radius: 0.8rem;
 
   display: inline-flex;
   align-items: center;
@@ -17,12 +18,51 @@
   /* -------------------------------------------------------------------------- */
   /*                                    색상정의                                  */
   /* -------------------------------------------------------------------------- */
-  &.blue {
+
+  &.common {
     color: var(--white);
-    background-color: var(--blue600);
+    background-color: var(--yellow600);
   }
-  &.orange {
+  &.green_success {
     color: var(--white);
-    background-color: var(--red500);
+    background-color: var(--success, (--green650));
   }
+  &.alert {
+    color: var(--white);
+    background-color: var(--red450);
+  }
+  &.warning {
+    color: var(--white);
+    background-color: var(--red250);
+  }
+  &.info {
+    color: var(--white);
+    background-color: var(--blue650);
+  }
+}
+
+/* 다크 */
+.badge.dark {
+  &.green_success {
+    --success-dark: #02971c;
+    color: var(--white);
+    background-color: var(--success-dark, (--green650));
+  }
+  &.alert {
+    --alert-dark: #fd0025;
+    color: var(--white);
+    background-color: var(--alert-dark, var(--red450));
+  }
+  &.warning {
+    color: var(--white);
+    background-color: var(--red250);
+  }
+  &.info {
+    color: var(--white);
+    background-color: var(--blue650);
+  }
+}
+
+.copy.dark {
+  background: var(--black_dark);
 }
