@@ -54,12 +54,14 @@
     background-color: var(--alert-dark, var(--red450));
   }
   &.warning {
+    --warning-dark: #eb3800;
     color: var(--white);
-    background-color: var(--red250);
+    background-color: var(--warning-dark, var(--red250));
   }
   &.info {
+    --info-dark: #9f03ff;
     color: var(--white);
-    background-color: var(--blue650);
+    background-color: var(--info-dark, var(--blue650));
   }
 }
 
