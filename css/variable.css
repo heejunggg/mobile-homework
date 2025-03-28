@@ -23,6 +23,7 @@
   --gray400: #aaaaaa;
   --gray300: #d7d7d7;
   --gray200: #eaeaea;
+  --gray150: #f0f0f0;
   --gray100: #f5f5f5;
   --gray50: #fafafa;
 
@@ -73,7 +74,7 @@
   */
 
   --primary: var(--blue500);
-  --secondary: var(--yellow500);
+  --secondary: var(--blue300);
   --danger: var(--red500);
   --success: var(--green600);
 
