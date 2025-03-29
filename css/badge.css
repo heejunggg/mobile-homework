@@ -39,6 +39,18 @@
     color: var(--white);
     background-color: var(--blue650);
   }
+  &.gray {
+    color: var(--white);
+    background-color: var(--gray400);
+  }
+
+  &.white-outline {
+    color: var(--gray4b, #4b4b4b);
+
+    background-color: var(--gray50);
+    border: 1px solid var(--grayea, #eaeaea);
+    border-radius: 1.6rem;
+  }
 }
 
 /* 다크 */
@@ -67,4 +79,31 @@
 
 .copy.dark {
   background: var(--black_dark);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    기타정의                                    */
+/* -------------------------------------------------------------------------- */
+.hit-view {
+  background: url(../images/icon7.svg) no-repeat left;
+  height: 2.4rem;
+  color: var(--gray4b, #4b4b4b);
+  font-size: 1.1rem;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  /* border: 1px solid red; */
+  padding-left: 3.2rem;
+  align-content: center;
+}
+
+.comment-view {
+  background: url(../images/icon-8.svg) no-repeat left;
+  height: 2.4rem;
+  color: var(--gray4b, #4b4b4b);
+  font-size: 1.1rem;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  /* border: 1px solid red; */
+  padding-left: 3.2rem;
+  align-content: center;
 }
