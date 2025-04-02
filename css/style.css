@@ -25,6 +25,7 @@
 
 /* 유기체 */
 @import url(./table.css) layer(organisms.table);
+@import url(./header.css) layer(organisms.header);
 
 /* 템플릿 */
 /* 페이지 */
